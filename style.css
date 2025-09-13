@@ -1,0 +1,77 @@
+body {
+  background-color: #ededed;
+  height: 2000px;
+}
+
+main {
+  width: 375px;
+  height: 620px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 30px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c6c6c6;
+  padding: 10px;
+}
+.header-logo {
+  width: 127px;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-section {
+  display: flex;
+  padding: 10px;
+}
+
+.header-section div p {
+  margin: 0 10px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+}
+
+.name,
+.bold {
+  font-weight: bold;
+}
+
+.place {
+  font-size: 12px;
+}
+
+.post img {
+  width: 375px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 115.34px;
+  height: 22.13px;
+  padding: 10px 10px 0 10px;
+  align-items: center;
+}
+
+.footer-section p {
+  margin-left: 10px;
+}
+
+.box-2 {
+  height: 540px;
+}
+
+span {
+  display: inline-block;
+}
